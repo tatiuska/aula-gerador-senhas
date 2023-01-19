@@ -1,5 +1,51 @@
 /* Gerais */
 * {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333333;
 }
 
+html, body {
+    height: auto;
+    min-height: 100vh;
+}
+
+html {
+    background: linear-gradient(180deg, #E06B17 0%, #BE229C 100%);
+}
+
+input:focus {
+    outline: none;
+}
+
+#register-container {
+    max-width: 900px;
+    min-height: 80vh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#register-banner {
+    background: url(../img/bg-form.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+#banner-layer {
+    background-color: rgba(114, 17, 93, 0.7);
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#register-banner h1 {
+    font-size: 4rem;
+    margin-bottom: .5rem;
+    color: #FFFFFF;
+    word-spacing: 50rem;
+}
